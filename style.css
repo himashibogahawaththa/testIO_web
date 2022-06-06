@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cover */
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.left,.right {
+    width: 50%;
+    z-index: 1;
+    top: 0;
+ }
+ 
+ .left {
+    left: 0;
+    background-color: #fff;
+ }
+ .right {
+    right: 0;
+    background-color: #EDF0F8;
+ }
+
+ .left .content-left{
+    padding-left: 20%;
+ }
+ .right .content-right{
+    padding-right: 10%;
+ }
+
+/* logo */
+
+ .left .content-left .logo{
+     margin-top: 5%;
+     margin-left: 5%;
+ }
+
+ /* End logo */
+ 
+ .left .content-left h1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size:70px;
+    line-height: 100%;
+    margin: 6% 0;
+    color: #0E0E0E;
+ }
+ #title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #3E3E3E;
+    padding: 15% 0 3% 12%;
+}
+ #para{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+    color: #676767;
+}
+
+.left .content-left{
+    position: relative;
+}
+
+.left .content-left #para{
+    padding-right: 10%;
+}
+
+ .left .content-left .top-btns{
+    display: flex;
+    flex-direction: row;
+    margin: 15% 0%;
+    width: 150px;
+ }
+ .left .content-left .top-btns .call-us-btn button{
+    background-color: #3295F0;
+    border: 1px solid #3295F0;
+    color: #fff;
+ }
+ .left .content-left .top-btns .call-us-btn button:hover{
+     color:#000;
+ }
+ 
+ .left .content-left .top-btns .our-services-btn button{
+    background-color: #fff;
+    border: 1px solid #3295F0;
+    color: #3295F0;
+ }
+ .left .content-left .top-btns .our-services-btn button:hover{
+    color:#000;
+ }
+
+ .left .content-left .top-btns .call-us-btn button ,  .our-services-btn button{
+    padding: 18px 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-right: 20px;
+    width: 185px;
+    
+ }
+ .left .content-left .top-btns .call-us-btn button img,  .our-services-btn button img{
+    margin-right: 15px;
+ }
+
+ .left .content-left .image2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .left .content-left .image-wrap {
+    width: 100%;
+    position: relative;
+ }
+
+ .left .content-left .image-wrap img {
+    width: 100%;
+    position: absolute;
+ }
+
+ /* .left .content-left .image2 img{
+    width: 100%;
+ } */
+ /* .left .para-3{
+    background-color: #EDF0F8;
+    margin-top: -25%;
+    margin-left: -25%;
+ } */
+
+ .left #title{
+    padding-top: 25%;
+    padding-left: 20%;
+ }
+/* .left .content-left .para-3 #title{
+    margin: 0%;
+}
+.left .content-left .para-3 #para{
+    padding: 4% 10% 11% 20%;
+} */
+
+
+
+ /* Social icons */
+
+ .right .content-right .social-links{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 7%;
+ }
+ .right .content-right .social-links ul li{
+    display: inline-block;
+    margin-left: 25px;
+    padding-bottom: 2%;
+ } 
+
+ .right .content-right .image img{
+    width: 90%;
+    margin-top: 10%;
+ }
+ 
+ .right .para-2{
+    background-color: #fff;
+    margin: 0;
+    padding: 20% 20% 20% 10%;
+ }
+
+
+.right .para-2 #title,
+.right .para-2 #para{
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.right .content-right .image img{
+    width: 90%;
+    margin-top: 10%;
+ }
+
+.row-1{
+    background-color: #EDF0F8;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.row-1 .para-3 , .image-1{
+    width: 50%;
+}
+
+.row-1 .para-3 #title{
+    margin-top: 30%;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.row-1 .para-3 #para{
+    padding-right: 30%;
+}
+
+.row-1 .image-1 img{
+    height: 100%;
+}
+
+
+.row-2{
+    margin-bottom: 5%;
+}
+ .row-2 #title{
+    padding: 7% 10%;
+ }
+ .row-2 .row1 {
+     display: flex;
+     justify-content: space-around;
+     margin: 0 10% 0 10%;
+ }
+ .row-2 .row1 .service{
+     display: flex;
+     flex-direction: row;
+     margin: 2% 0 7% 0;
+     width: 400px;
+ }
+.row-2 .row1 .service img{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+.row-2 .row1 .service .text .text1{
+    font-size: 21px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.row-2 .row1 .service .text .text2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #676767;
+}
+
+#bottom-img img{
+    width: 100%;
+}
+
+.row-3{
+    display: flex;
+    flex-direction: row;
+    background-color: #3295F0;
+}
+.row-3 .about , .contact , .follow{
+    margin: 2% 5% 6% 10%;
+    width: 275px;
+}
+.row-3 .about .description{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 2%;
+}
+.row-3 .contact h1 , .follow h1{
+    font-size: 21px;
+    line-height: 30px;
+    color: #fff;
+    padding-bottom: 10%;
+}
+.row-3 .contact .details .phone , .mail , .location{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+
+.row-3 .contact .details .phone img , .mail img , .location img{
+    padding-right: 10%;
+}
+
+.row-3 .contact .details .phone p , .mail p , .location p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+}
+.row-3 .follow .social-links{
+    display: flex;
+    justify-content: flex-start
+}
+.row-3 .follow .social-links ul li{
+    display: inline;
+    padding-right: 20px;
+}
+ .row-4{
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: center;
+ }
+ .row-4 p{
+    color: #fff;
+    padding: 1%;
+    font-size: 21px;
+    line-height: 30px;
+ }
+
+
+
+
+
+
+
+
+
+ @media (max-width: 375px){
+    #title{
+        font-size: 40px;
+    }
+    #para{
+        font-size: 15px;
+    }
+    .row-2 .row1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5% !important; 
+    }
+    .right .para-2 #para {
+        padding-right: 15%;
+    }
+    .row-2 .row1 .service img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
+     
+ }
+ @media (max-width: 622px) and (min-width: 407px){
+    
+    .left .content-left .top-btns{
+        display: flex !important ;
+        flex-wrap: nowrap !important;
+        margin: 5% 0% !important;
+    }
+    .left .content-left .top-btns .call-us-btn  ,  .our-services-btn {
+        margin: 0 5% !important;
+    }
+ }
+ @media (max-width: 622px){
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row  .left , .right{
+        width: 100%;
+    }
+    .row-1{
+        display: flex !important;
+        flex-direction: column !important;
+        padding-right: 0;
+    }
+    .row-1 .para-3 #title {
+        margin-top: 20%;
+    }
+    .row-1 .para-3 #para {
+        padding-right: 20%;
+        padding-bottom: 20%;
+    }
+    .row-1 .para-3, .image-1 {
+        width: 100%;
+    }
+    .row-3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-3 .about, .contact, .follow{
+        width: 200px;
+    }
+    /* .right .content-right .social-links ul li{
+        margin-left: 10px;
+    }
+    .right .content-right .social-links ul li a img {
+        width: 60%;
+        height: 60%;
+    } */
+ }
+ @media (max-width: 768px){
+    .left .content-left .top-btns{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5% 20%;
+    }
+    .left .content-left .top-btns .call-us-btn button ,  .our-services-btn button{
+        padding: 4% 5% !important;
+        margin: 4%;
+    }
+    .right .content-right .social-links ul li a img {
+        width: 65% !important;
+        height: 65% !important;
+    }
+    .row-2 .row1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-3 .contact h1 , .follow h1{
+        font-size: 18px;
+    }
+    .row-3 .about .description p{
+        font-size: 14px;
+    }
+    .row-3 .contact .details .phone p , .mail p , .location p{
+        font-size: 14px;
+    }
+ }
+ @media (max-width: 900px){
+    .left .content-left h1{
+        font-size: 40px !important;
+    }
+    #title{
+        font-size: 27px !important;
+    }
+    #para{
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+    .row-2 .row1 .service {
+        width: 255px !important;
+    }
+    .row-2 .row1 .service .text .text1{
+        font-size: 15px !important;
+    }
+    .row-2 .row1 .service .text .text2{
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 622px) and (max-width:890px){
+    .left .content-left .image-wrap img {
+        height: 480px;
+    } 
+    .row-1 .para-3 #title {
+        margin-top: 15%;
+    }
+    .row-1 .para-3 #para {
+        padding-right: 20%;
+    }
+}
+
+@media (min-width: 760px) and (max-width:1290px){
+    .left .content-left h1{
+        font-size: 40px !important;
+    }
+    #title{
+        font-size: 27px !important;
+    }
+    #para{
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+    .row-2 .row1 .service {
+        width: 255px !important;
+    }
+    .row-2 .row1 .service .text .text1{
+        font-size: 15px !important;
+    }
+    .row-2 .row1 .service .text .text2{
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 1070px){
+    .left .content-left h1{
+        font-size: 55px;
+    }
+    #title{
+        font-size: 33px;
+    }
+    #para{
+        font-size: 18px;
+    }
+    .left .content-left .top-btns .call-us-btn button ,  .our-services-btn button{
+        padding: 12px 15px;
+        font-size: 12px;
+        width: 140px;
+    }
+    .right .content-right .social-links ul li a img{
+        width: 75%;
+        height: 75%;
+    }
+    .row-2 .row1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 !important;
+    }
+    .row-2 .row1 .service img{
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+    .row-2 .row1 .service .text .text1{
+        font-size: 18px;
+    }
+    .row-2 .row1 .service .text .text2{
+        font-size: 15px;
+    }
+    .row-3 .about, .contact, .follow {
+        margin: 2% 5% 6% 4%;
+    }
+    .row-3 .about .bottom-logo img{
+        width: 50%;
+        height: 30%;
+    }
+    .row-4 p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 1071px)and (max-width:2560px){
+    .row-2 .row1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1% !important;
+    }
+}
+@media (min-width: 1024px){
+    .right .content-right .social-links ul li{
+        margin-left: 40px;
+    }
+    .right .content-right .social-links ul li a img{
+        width: 30px;
+        height: 30px;
+    }
+}
